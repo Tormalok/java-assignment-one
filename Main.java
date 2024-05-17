@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,7 +30,41 @@ public class Main {
 
 
 //        Main
-        System.out.println("Hello, you're welcome to learn the story of creation as written in the book of Genesis.");
-        System.out.println("Which one of these would you like to continue with?");
+        System.out.println("Hi there, this is a quick reference to the story of creation as written in the book of Genesis.\n");
+
+        Scanner in = new Scanner(System.in);
+
+            System.out.println("""
+                    Which day do you want to know what was being created?
+                    (1) Day One - (7) Day Seven \n""");
+
+            System.out.println("Reply: ");
+            int num = in.nextInt();
+
+            switch (num) {
+                case 1:
+                    System.out.print(dayOne);
+                    break;
+                case 2:
+                    System.out.print(dayTwo);
+                    break;
+                case 3:
+                    System.out.print(dayThree);
+                    break;
+                case 4:
+                    System.out.print(dayFour);
+                    break;
+                case 5:
+                    System.out.print(dayFive);
+                    break;
+                case 6:
+                    System.out.print(daySix);
+                    break;
+                case 7:
+                    System.out.print(daySeven);
+                    break;
+                default:
+                    System.out.println("Unknown reply.");
+            }
     }
 }
