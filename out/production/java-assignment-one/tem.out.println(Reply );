@@ -1,0 +1,23 @@
+[33mcommit 44eaecf334a9223f10f32f1c03869e2c2624785d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Henry Amponsah <maccurang@outlook.com>
+Date:   Sat May 18 07:22:09 2024 +0000
+
+    extended the logic in choosing Day One option to all the other Day options
+
+[33mcommit 98618569ece52ce98b7772b385bdba19a5fdf0a6[m
+Author: Henry Amponsah <maccurang@outlook.com>
+Date:   Sat May 18 07:06:51 2024 +0000
+
+    completed with the logic for Day One option, if chosen by user
+
+[33mcommit 43906dfa2896feb382c522ca98e460f03535331f[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Henry Amponsah <maccurang@outlook.com>
+Date:   Fri May 17 23:37:16 2024 +0000
+
+    completed the first user-prompting
+
+[33mcommit 95494a8869f0131dea345b9c0c43ce66eac8ba21[m
+Author: Henry Amponsah <maccurang@outlook.com>
+Date:   Fri May 17 22:19:58 2024 +0000
+
+    completed all variable declarations, set up the introductory section to the programme
